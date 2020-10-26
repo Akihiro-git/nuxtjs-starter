@@ -1,4 +1,4 @@
-
+import { projects } from "./utils/projectsData";
 export default {
   mode: 'universal',
   /*
@@ -51,7 +51,7 @@ export default {
     */
     extend (config, ctx) {
     }
-  }, 
+  },
 
   generate: {
     async routes() {
